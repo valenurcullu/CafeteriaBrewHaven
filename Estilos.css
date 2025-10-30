@@ -366,6 +366,173 @@ body {
     color: #999;
 }
 
+/* agregamos los estilos nuevos/*
+/* === ESTILOS SIMPLIFICADOS PARA PRODUCTOS Y PROMOCIONES === */
+
+/* Esto es para que el footer fijo no tape el contenido de abajo */
+/* El footer fijo ocupa espacio, esto le da un "fondo" al body */
+body {
+    padding-bottom: 200px; 
+}
+
+/* Estilos para la página de Menú (Productos) */
+.menu-section {
+    padding: 4rem 0; /* Un poco de espacio arriba y abajo */
+    background: #f9f9f9; /* Un fondo gris muy claro */
+}
+
+.menu-grid {
+    display: grid;
+    /* Esto crea columnas que se adaptan (igual que en tu .contacto-grid) */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem; /* Espacio entre las cajas */
+}
+
+.menu-item {
+    background: white;
+    border: 1px solid #ddd; /* Un borde simple en vez de sombra */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para que la imagen no se salga del borde redondeado */
+}
+
+.menu-item-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Para que la imagen se corte y no se deforme */
+}
+
+.menu-item-info {
+    padding: 1rem; /* Espacio dentro de la caja, bajo la foto */
+}
+
+.menu-item-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.menu-item-desc {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.menu-item-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #8B4513; /* Marrón café (de tus estilos) */
+}
+
+/* Estilos para la página de Promociones */
+.promo-section {
+    padding: 4rem 0;
+    background: white;
+}
+
+.promo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columnas de igual tamaño */
+    gap: 2rem;
+}
+
+.promo-item {
+    padding: 1.5rem;
+    border: 2px dashed #D4AF37; /* Borde dorado (de tus estilos) */
+    border-radius: 10px;
+    background: #fffcf2; /* Un fondo amarillo muy pálido */
+    text-align: center;
+}
+
+.promo-title {
+    font-size: 1.5rem;
+    color: #8B4513;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para la Calculadora de Promos */
+.calculator-section {
+    padding: 4rem 0;
+    background: #f9f9f9; /* Fondo gris claro */
+}
+
+.calculator-form {
+    max-width: 600px;
+    margin: 0 auto 2rem auto; /* centrado y con margen abajo */
+    background: white;
+    padding: 2rem;
+    border: 1px solid #ddd; /* Borde simple */
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Espacio entre cada input */
+}
+
+.form-group label {
+    display: block; /* La etiqueta arriba del input */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc; /* Borde simple */
+    border-radius: 5px;
+}
+
+/* Estilos para la sección de Resultados */
+.results-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background: #2C1810; /* Marrón oscuro (de tus estilos) */
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.results-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #D4AF37; /* Dorado (de tus estilos) */
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #5a4a3f;
+    padding-bottom: 1rem;
+}
+
+.results-section p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.results-section p span {
+    font-weight: 600;
+}
+
+.results-total {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #5a4a3f;
+}
+
+.results-total span {
+    color: #D4AF37; /* Dorado */
+}
+
+
+
+
+
+
+
+
+
 /* Animations */
 @keyframes fadeInUp {
     from {

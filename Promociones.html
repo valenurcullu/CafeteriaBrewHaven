@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones - Brew Haven</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+     <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <div class="logo">☕</div>
+                <span class="marca-name">Brew Haven</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="Productos.html" class="nav-link">Menu</a>
+                <a href="Nosotros.html" class="nav-link">Nosotros</a>
+                <a href="Contacto.html" class="nav-link">Contacto</a>
+                <a href="Promociones.html" class="nav-link">Promociones</a>
+            </div>
+        </nav>
+      </header>
+
+      <main>
+        <section id="promos" class="promo-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Promociones Especiales</h2>
+                    <p class="section-subtitle">Calculá tu ahorro al instante.</p>
+                </div>
+
+                <div class="promo-grid">
+                    <div class="promo-item">
+                        <h3 class="promo-title">Promo Latté</h3>
+                        <p>Llevá 2 Lattés y tenés 50% OFF en el segundo.</p>
+                        <p>(Precio regular: $3500 c/u)</p>
+                    </div>
+                    <div class="promo-item">
+                        <h3 class="promo-title">Promo Medialunas</h3>
+                        <p>¡3x2 en Medialunas de Manteca!</p>
+                        <p>(Precio regular: $1200 c/u)</p>
+                    </div>
+                    <div class="promo-item">
+                        <h3 class="promo-title">Descuento Total</h3>
+                        <p>10% de descuento en compras superiores a $30.000.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="calculadora" class="calculator-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Calculadora de Promos</h2>
+                </div>
+                
+                <form id="promo-calculator" class="calculator-form">
+                    <div class="form-group">
+                        <label for="qty-latte">Cantidad de Lattés ($3500)</label>
+                        <input type="number" id="qty-latte" min="0" value="0" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="qty-medialuna">Cantidad de Medialunas ($1200)</label>
+                        <input type="number" id="qty-medialuna" min="0" value="0" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="total-otros">Total de otros productos (para promo 10%)</label>
+                        <input type="number" id="total-otros" min="0" value="0" class="form-control" placeholder="Ej: 25000">
+                    </div>
+                </form>
+
+                <div id="results" class="results-section">
+                    <h3 class="results-title">Tu Resumen</h3>
+                    <p>Total sin descuento: <span id="res-subtotal">$0.00</span></p>
+                    <p>Ahorro total (Descuentos): <span id="res-ahorro">$0.00</span></p>
+                    <h4 class="results-total">Total a Pagar: <span id="res-total">$0.00</span></h4>
+                </div>
+
+            </div>
+        </section>
+      </main>
+
+    <footer class="fixed-footer">
+        <div class="container">
+            <div class="fixed-footer-content">
+                <div class="footer-info">
+                    <div class="footer-brand">
+                        <div class="logo">☕</div>
+                        <span class="brand-name">Brew Haven</span>
+                    </div>
+                    <p class="footer-tagline">Experiencia de Cafe Unica</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Brew Haven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Promociones.js"></script>
+
+</body>
+</html>
