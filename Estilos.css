@@ -264,6 +264,20 @@ body {
     text-align: center;
 }
 
+.contacto-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #D4AF37;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
 
 /* estilos ubi,hora,tel*/
 .contacto-title {
@@ -278,7 +292,7 @@ body {
     line-height: 1.6;
 }
 
-/* Fixed Footer */
+/* footer fijado abajo */
 .fixed-footer {
     position: fixed;
     bottom: 0;
@@ -366,8 +380,8 @@ body {
     color: #999;
 }
 
-/* agregamos los estilos nuevos/*
-/* === ESTILOS SIMPLIFICADOS PARA PRODUCTOS Y PROMOCIONES === */
+
+/*  ESTILOS SIMPLIFICADOS PARA PRODUCTOS Y PROMOCIONES  */
 
 /* Esto es para que el footer fijo no tape el contenido de abajo */
 /* El footer fijo ocupa espacio, esto le da un "fondo" al body */
@@ -378,12 +392,12 @@ body {
 /* Estilos para la página de Menú (Productos) */
 .menu-section {
     padding: 4rem 0; /* Un poco de espacio arriba y abajo */
-    background: #f9f9f9; /* Un fondo gris muy claro */
+    background: #f9f9f9; 
 }
 
 .menu-grid {
     display: grid;
-    /* Esto crea columnas que se adaptan (igual que en tu .contacto-grid) */
+    /* Esto crea columnas que se adaptan (igual que en mis .contacto-grid) */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem; /* Espacio entre las cajas */
 }
@@ -420,7 +434,7 @@ body {
 .menu-item-price {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #8B4513; /* Marrón café (de tus estilos) */
+    color: #8B4513; 
 }
 
 /* Estilos para la página de Promociones */
@@ -437,9 +451,9 @@ body {
 
 .promo-item {
     padding: 1.5rem;
-    border: 2px dashed #D4AF37; /* Borde dorado (de tus estilos) */
+    border: 2px dashed #D4AF37; 
     border-radius: 10px;
-    background: #fffcf2; /* Un fondo amarillo muy pálido */
+    background: #fffcf2; 
     text-align: center;
 }
 
@@ -480,7 +494,7 @@ body {
     width: 100%;
     padding: 0.5rem;
     font-size: 1rem;
-    border: 1px solid #ccc; /* Borde simple */
+    border: 1px solid #ccc; 
     border-radius: 5px;
 }
 
@@ -489,7 +503,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 1.5rem;
-    background: #2C1810; /* Marrón oscuro (de tus estilos) */
+    background: #2C1810;
     color: white;
     border-radius: 10px;
     text-align: center;
@@ -498,7 +512,7 @@ body {
 .results-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #D4AF37; /* Dorado (de tus estilos) */
+    color: #D4AF37; 
     margin-bottom: 1rem;
     border-bottom: 1px solid #5a4a3f;
     padding-bottom: 1rem;
@@ -522,7 +536,7 @@ body {
 }
 
 .results-total span {
-    color: #D4AF37; /* Dorado */
+    color: #D4AF37; 
 }
 
 
